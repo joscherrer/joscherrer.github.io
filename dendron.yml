@@ -8,7 +8,8 @@ dev:
 site:
     copyAssets: true
     siteHierarchies:
-        - root
+        - infrastructure
+    siteUrl: https://joscherrer.github.io
     siteRootDir: docs
     usePrettyRefs: true
     title: Dendron

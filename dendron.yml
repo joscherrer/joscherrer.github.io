@@ -9,7 +9,7 @@ site:
     copyAssets: true
     siteHierarchies:
         - infrastructure
-    siteUrl: https://joscherrer.github.io
+    siteUrl: https://docs.bbrain.io
     siteRootDir: docs
     usePrettyRefs: true
     title: Dendron

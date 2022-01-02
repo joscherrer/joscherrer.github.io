@@ -1,0 +1,96 @@
+{
+  "notes": {
+    "403": {
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "403",
+      "updated": 1641151905658,
+      "created": 1641151905658,
+      "parent": null,
+      "children": [],
+      "data": {}
+    },
+    "ACmIaoniWX1pK5upZqwF4": {
+      "id": "ACmIaoniWX1pK5upZqwF4",
+      "title": "Infrastructure",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "infrastructure",
+      "updated": 1641150932737,
+      "created": 1641149787317,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "ca0daa889d023e0db195580a5a89043a",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      }
+    }
+  },
+  "domains": [
+    {
+      "id": "ACmIaoniWX1pK5upZqwF4",
+      "title": "Infrastructure",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "infrastructure",
+      "updated": 1641150932737,
+      "created": 1641149787317,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "ca0daa889d023e0db195580a5a89043a",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "body": "\nThis is the root of my infrastructure documentation.\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "ACmIaoniWX1pK5upZqwF4",
+    "title": "Infrastructure",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "type": "note",
+    "desc": "",
+    "links": [],
+    "anchors": {},
+    "fname": "infrastructure",
+    "updated": 1641150932737,
+    "created": 1641149787317,
+    "parent": null,
+    "children": [],
+    "data": {},
+    "contentHash": "ca0daa889d023e0db195580a5a89043a",
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "body": "\nThis is the root of my infrastructure documentation.\n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

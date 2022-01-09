@@ -1,0 +1,19 @@
+<h1 id="urllib"><a aria-hidden="true" class="anchor-heading" href="#urllib"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Urllib</h1>
+<h2 id="sample-get-request"><a aria-hidden="true" class="anchor-heading" href="#sample-get-request"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sample GET request</h2>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> urllib<span class="token punctuation">.</span>request
+
+f <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>urlopen<span class="token punctuation">(</span><span class="token string">'https://www.google.fr'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>decode<span class="token punctuation">(</span>f<span class="token punctuation">.</span>info<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>get_content_charset<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="sample-post-request"><a aria-hidden="true" class="anchor-heading" href="#sample-post-request"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sample POST request</h2>
+<pre class="language-py"><code class="language-py"><span class="token keyword">from</span> urllib<span class="token punctuation">.</span>parse <span class="token keyword">import</span> urlencode
+<span class="token keyword">from</span> urllib<span class="token punctuation">.</span>request <span class="token keyword">import</span> Request<span class="token punctuation">,</span> urlopen
+
+url <span class="token operator">=</span> <span class="token string">"https://www.google.fr"</span>
+data <span class="token operator">=</span> urlencode<span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'test1'</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+req <span class="token operator">=</span> Request<span class="token punctuation">(</span>url<span class="token punctuation">,</span> data<span class="token operator">=</span>data<span class="token punctuation">)</span>
+res <span class="token operator">=</span> urlopen<span class="token punctuation">(</span>req<span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>decode<span class="token punctuation">(</span>res<span class="token punctuation">.</span>info<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>get_content_charset<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>

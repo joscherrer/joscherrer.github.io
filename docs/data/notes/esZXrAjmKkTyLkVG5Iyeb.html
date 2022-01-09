@@ -1,0 +1,77 @@
+<h1 id="git"><a aria-hidden="true" class="anchor-heading" href="#git"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git</h1>
+<h2 id="change-past-commit-author"><a aria-hidden="true" class="anchor-heading" href="#change-past-commit-author"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Change past commit author</h2>
+<h3 id="interactive-rebase"><a aria-hidden="true" class="anchor-heading" href="#interactive-rebase"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Interactive rebase</h3>
+<p>Interactive rebase off of a point earlier in the history than the commit you need to modify (<code>git rebase -i &#x3C;earliercommit></code>). In the list of commits being rebased, change the text from <code>pick</code> to <code>edit</code> next to the hash of the one you want to modify. Then when git prompts you to change the commit, use this:</p>
+<pre><code>git commit --amend --author="Author Name &#x3C;email@address.com>" --no-edit
+</code></pre>
+<p>For example, if your commit history is <code>A-B-C-D-E-F</code> with <code>F</code> as <code>HEAD</code>, and you want to change the author of <code>C</code> and <code>D</code>, then you would...</p>
+<ol>
+<li>Specify <code>git rebase -i B</code> (<a href="https://help.github.com/articles/about-git-rebase/#an-example-of-using-git-rebase">here is an example of what you will see after executing the <code>git rebase -i B</code> command</a>)</li>
+</ol>
+<ul>
+<li>if you need to edit <code>A</code>, use <code>git rebase -i --root</code></li>
+</ul>
+<ol start="2">
+<li>Change the lines for both <code>C</code> and <code>D</code> from <code>pick</code> to <code>edit</code></li>
+<li>Exit the editor (for vim, this would be pressing Esc and then typing <code>:wq</code>).</li>
+<li>Once the rebase started, it would first pause at <code>C</code></li>
+<li>You would <code>git commit --amend --author="Author Name &#x3C;email@address.com>"</code></li>
+<li>Then <code>git rebase --continue</code></li>
+<li>It would pause again at <code>D</code></li>
+<li>Then you would <code>git commit --amend --author="Author Name &#x3C;email@address.com>"</code> again</li>
+<li><code>git rebase --continue</code></li>
+<li>The rebase would complete.</li>
+<li>Use <code>git push -f</code> to update your origin with the updated commits.</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit</span>
+<span class="token function">git</span> log <span class="token comment"># To find the commit hash - 1</span>
+<span class="token function">git</span> rebase -i <span class="token operator">&#x3C;</span>hash<span class="token operator">></span>
+<span class="token comment"># change pick to edit</span>
+<span class="token function">git</span> commit --amend --author<span class="token operator">=</span><span class="token string">"Jonathan Scherrer &#x3C;jonathan.s.scherrer@gmail.com>"</span>
+<span class="token function">git</span> rebase --continue
+<span class="token function">git</span> push -f
+</code></pre>
+<h3 id="replace"><a aria-hidden="true" class="anchor-heading" href="#replace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Replace</h3>
+<p>The <a href="https://stackoverflow.com/a/3042512/3357935">accepted answer</a> to this question is a wonderfully clever use of interactive rebase, but it unfortunately exhibits conflicts if the commit we are trying to change the author of used to be on a branch which was subsequently merged in. More generally, it does not work when handling messy histories.</p>
+<p>Since I am apprehensive about running scripts which depend on setting and unsetting environment variables to rewrite git history, I am writing a new answer based on <a href="https://help.github.com/articles/changing-author-info/">this post</a> which is similar to <a href="https://stackoverflow.com/a/3404304/391161">this answer</a> but is more complete.</p>
+<p>The following is tested and working, unlike the linked answer.
+Assume for clarity of exposition that <code>03f482d6</code> is the commit whose author we are trying to replace, and <code>42627abe</code> is the commit with the new author. </p>
+<ol>
+<li>
+<p>Checkout the commit we are trying to modify. </p>
+<pre><code>git checkout 03f482d6
+</code></pre>
+</li>
+<li>
+<p>Make the author change.</p>
+<pre><code>  git commit --amend --author "New Author Name &#x3C;New Author Email>"
+</code></pre>
+<p>Now we have a new commit with hash assumed to be <code>42627abe</code>.</p>
+</li>
+<li>
+<p>Checkout the original branch.</p>
+</li>
+<li>
+<p>Replace the old commit with the new one locally.</p>
+<pre><code>git replace 03f482d6 42627abe
+</code></pre>
+</li>
+<li>
+<p>Rewrite all future commits based on the replacement.</p>
+<pre><code>git filter-branch -- --all
+</code></pre>
+</li>
+<li>
+<p>Remove the replacement for cleanliness.</p>
+<pre><code>git replace -d 03f482d6
+</code></pre>
+</li>
+<li>
+<p>Push the new history (only use --force if the below fails, and only after sanity checking with <code>git log</code> and/or <code>git diff</code>).</p>
+<pre><code>git push --force-with-lease
+</code></pre>
+</li>
+</ol>
+<p>Instead of 4-5 you can just rebase onto new commit:</p>
+<pre><code>git rebase -i 42627abe
+</code></pre>

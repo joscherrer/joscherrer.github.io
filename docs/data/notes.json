@@ -11,11 +11,254 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1641151905658,
-      "created": 1641151905658,
+      "updated": 1641765937467,
+      "created": 1641765937467,
       "parent": null,
       "children": [],
       "data": {}
+    },
+    "Ryqt7Uj1Qzbm4h4jOW4jD": {
+      "id": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "title": "Python",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "python",
+      "updated": 1641745070576,
+      "created": 1641745070576,
+      "parent": null,
+      "children": [
+        "uvOyqp7f7sj2CxwroIGXx",
+        "5Cf45sPCA2vDYIdN12aIA"
+      ],
+      "data": {},
+      "contentHash": "98a49cdaa835b01eb7fc357a3a2fed87",
+      "stub": false,
+      "custom": {
+        "stub": true,
+        "nav_order": 4
+      }
+    },
+    "5Cf45sPCA2vDYIdN12aIA": {
+      "id": "5Cf45sPCA2vDYIdN12aIA",
+      "title": "Urllib",
+      "desc": "",
+      "updated": 1641658986258,
+      "created": 1641657996060,
+      "custom": {},
+      "fname": "python.urllib",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ebcc1ba41af8fd83c39cab8d293b721f",
+      "links": [],
+      "anchors": {
+        "sample-get-request": {
+          "type": "header",
+          "text": "Sample GET request",
+          "value": "sample-get-request",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "sample-post-request": {
+          "type": "header",
+          "text": "Sample POST request",
+          "value": "sample-post-request",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "data": {}
+    },
+    "uvOyqp7f7sj2CxwroIGXx": {
+      "id": "uvOyqp7f7sj2CxwroIGXx",
+      "title": "Argparse",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "basic-argparse-setup": {
+          "type": "header",
+          "text": "Basic argparse setup",
+          "value": "basic-argparse-setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "fname": "python.argparse",
+      "updated": 1641751952635,
+      "created": 1641751672406,
+      "parent": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "children": [],
+      "data": {},
+      "contentHash": "e4da82bbfb312f96fe81b8b7bdca24d6",
+      "custom": {}
+    },
+    "oDOFbJOt5YYRU9MzWaQT0": {
+      "id": "oDOFbJOt5YYRU9MzWaQT0",
+      "title": "Environments",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "environments",
+      "updated": 1641739390049,
+      "created": 1641739377044,
+      "parent": null,
+      "children": [
+        "Odo5JvNX2nDLnJ1jim3Pg"
+      ],
+      "data": {},
+      "contentHash": "090bcb4751ee7635f63ebd18b94dedf9",
+      "stub": false,
+      "custom": {
+        "stub": true,
+        "nav_order": 3
+      }
+    },
+    "Odo5JvNX2nDLnJ1jim3Pg": {
+      "id": "Odo5JvNX2nDLnJ1jim3Pg",
+      "title": "Windows",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "keyboard-rate": {
+          "type": "header",
+          "text": "Keyboard rate",
+          "value": "keyboard-rate",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "fname": "environments.windows",
+      "updated": 1641745022605,
+      "created": 1641739377033,
+      "parent": "oDOFbJOt5YYRU9MzWaQT0",
+      "children": [],
+      "data": {},
+      "contentHash": "18a860e78162d366c85399fb81b27cb0",
+      "custom": {}
+    },
+    "AaMh2lcmbQnj9mqmRRDPx": {
+      "id": "AaMh2lcmbQnj9mqmRRDPx",
+      "title": "Keyboards",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "qmk": {
+          "type": "header",
+          "text": "QMK",
+          "value": "qmk",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "keymaps": {
+          "type": "header",
+          "text": "Keymaps",
+          "value": "keymaps",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "example": {
+          "type": "header",
+          "text": "Example",
+          "value": "example",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "layout": {
+          "type": "header",
+          "text": "Layout",
+          "value": "layout",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "fname": "keyboards",
+      "updated": 1641765873402,
+      "created": 1641656097524,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "fd208463ba029c1b0a2405abc7cc4f1d",
+      "custom": {
+        "nav_order": 2
+      }
+    },
+    "esZXrAjmKkTyLkVG5Iyeb": {
+      "id": "esZXrAjmKkTyLkVG5Iyeb",
+      "title": "Git",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "change-past-commit-author": {
+          "type": "header",
+          "text": "Change past commit author",
+          "value": "change-past-commit-author",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "interactive-rebase": {
+          "type": "header",
+          "text": "Interactive rebase",
+          "value": "interactive-rebase",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "replace": {
+          "type": "header",
+          "text": "Replace",
+          "value": "replace",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "fname": "git",
+      "updated": 1641744531441,
+      "created": 1641739397629,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "190a55f10dee6f1e58596f38f71a3f6b",
+      "custom": {
+        "nav_order": 1
+      }
     },
     "ACmIaoniWX1pK5upZqwF4": {
       "id": "ACmIaoniWX1pK5upZqwF4",
@@ -63,6 +306,161 @@
         "permalink": "/"
       },
       "body": "\nThis is the root of my infrastructure documentation.\n"
+    },
+    {
+      "id": "esZXrAjmKkTyLkVG5Iyeb",
+      "title": "Git",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "change-past-commit-author": {
+          "type": "header",
+          "text": "Change past commit author",
+          "value": "change-past-commit-author",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "interactive-rebase": {
+          "type": "header",
+          "text": "Interactive rebase",
+          "value": "interactive-rebase",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "replace": {
+          "type": "header",
+          "text": "Replace",
+          "value": "replace",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "fname": "git",
+      "updated": 1641744531441,
+      "created": 1641739397629,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "190a55f10dee6f1e58596f38f71a3f6b",
+      "custom": {
+        "nav_order": 1
+      },
+      "body": "\n## Change past commit author\n\n### Interactive rebase\n\nInteractive rebase off of a point earlier in the history than the commit you need to modify (`git rebase -i <earliercommit>`). In the list of commits being rebased, change the text from `pick` to `edit` next to the hash of the one you want to modify. Then when git prompts you to change the commit, use this:\n\n    git commit --amend --author=\"Author Name <email@address.com>\" --no-edit\n\nFor example, if your commit history is `A-B-C-D-E-F` with `F` as `HEAD`, and you want to change the author of `C` and `D`, then you would...\n\n 1. Specify `git rebase -i B` ([here is an example of what you will see after executing the `git rebase -i B` command](https://help.github.com/articles/about-git-rebase/#an-example-of-using-git-rebase))\n * if you need to edit `A`, use `git rebase -i --root`\n 2. Change the lines for both `C` and `D` from `pick` to `edit`\n 3. Exit the editor (for vim, this would be pressing Esc and then typing `:wq`).\n 3. Once the rebase started, it would first pause at `C`\n 4. You would `git commit --amend --author=\"Author Name <email@address.com>\"`\n 5. Then `git rebase --continue`\n 6. It would pause again at `D`\n 7. Then you would `git commit --amend --author=\"Author Name <email@address.com>\"` again\n 8. `git rebase --continue`\n 9. The rebase would complete.\n 10. Use `git push -f` to update your origin with the updated commits.\n\n\n```bash\n# https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit\ngit log # To find the commit hash - 1\ngit rebase -i <hash>\n# change pick to edit\ngit commit --amend --author=\"Jonathan Scherrer <jonathan.s.scherrer@gmail.com>\"\ngit rebase --continue\ngit push -f\n```\n\n### Replace\n\nThe [accepted answer][1] to this question is a wonderfully clever use of interactive rebase, but it unfortunately exhibits conflicts if the commit we are trying to change the author of used to be on a branch which was subsequently merged in. More generally, it does not work when handling messy histories.\n\nSince I am apprehensive about running scripts which depend on setting and unsetting environment variables to rewrite git history, I am writing a new answer based on [this post](https://help.github.com/articles/changing-author-info/) which is similar to [this answer](https://stackoverflow.com/a/3404304/391161) but is more complete.\n\nThe following is tested and working, unlike the linked answer.\nAssume for clarity of exposition that `03f482d6` is the commit whose author we are trying to replace, and `42627abe` is the commit with the new author. \n\n1. Checkout the commit we are trying to modify. \n      \n        git checkout 03f482d6\n2. Make the author change.\n\n        git commit --amend --author \"New Author Name <New Author Email>\"\n\n  Now we have a new commit with hash assumed to be `42627abe`.\n\n3. Checkout the original branch.\n\n4. Replace the old commit with the new one locally.\n\n        git replace 03f482d6 42627abe\n\n5. Rewrite all future commits based on the replacement.\n\n        git filter-branch -- --all\n\n6. Remove the replacement for cleanliness.\n\n        git replace -d 03f482d6\n\n7. Push the new history (only use --force if the below fails, and only after sanity checking with `git log` and/or `git diff`).\n\n        git push --force-with-lease\n\nInstead of 4-5 you can just rebase onto new commit:\n\n    git rebase -i 42627abe\n\n[1]: https://stackoverflow.com/a/3042512/3357935"
+    },
+    {
+      "id": "AaMh2lcmbQnj9mqmRRDPx",
+      "title": "Keyboards",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "qmk": {
+          "type": "header",
+          "text": "QMK",
+          "value": "qmk",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "keymaps": {
+          "type": "header",
+          "text": "Keymaps",
+          "value": "keymaps",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "example": {
+          "type": "header",
+          "text": "Example",
+          "value": "example",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "layout": {
+          "type": "header",
+          "text": "Layout",
+          "value": "layout",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "fname": "keyboards",
+      "updated": 1641765873402,
+      "created": 1641656097524,
+      "parent": null,
+      "children": [],
+      "data": {},
+      "contentHash": "fd208463ba029c1b0a2405abc7cc4f1d",
+      "custom": {
+        "nav_order": 2
+      },
+      "body": "\nThis is the homepage for anything related to keyboards\n\n## QMK\n\nTo install QMK :\n\n- Follow the setup procedure on [QMK Documentation](docs.qmk.fm)\n- Run [this gist](https://gist.github.com/joscherrer/e1274d2c49884b12ed3f9af14dd3a4e7) to clone all the custom keymaps\n```bash\ncurl -fsSL https://git.io/J9GFJ | python3 - -f\n```\n\n## Keymaps\n\nTo create a new keymap :\n\n- Create a github repository\n- Set the following topics on the repo :\n    - `qmk`\n    - `kb--<keyboard>` (keyboard path with `/` replaced by `-`)\n    - `km--<keymap>`\n\nFor example, on a repo for the ai03 polaris keyboard the topics should be :\n- `qmk`\n- `kb--ai03-polaris`\n- `km--jonathan`\n\n### Example\n\n```bash\nprintf \"keyboard: \" >&2; read -r keyboard\nprintf \"keymap: \" >&2; read -r keymap\nprintf \"Repo name: \" >&2; read -r repo_name\nkeyboard=$(tr '/' '-' <<< $keyboard | sed 's/_/---/')\n\ngh repo create \"$repo_name\" --public\ngh repo edit joscherrer/$repo_name --add-topic qmk --add-topic \"km--${keymap}\" --add-topic \"kb--$keyboard\"\n```\n\n## Layout\n\nHere is my current layout\n\n![layout](assets/images/keymap.png)\n"
+    },
+    {
+      "id": "oDOFbJOt5YYRU9MzWaQT0",
+      "title": "Environments",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "environments",
+      "updated": 1641739390049,
+      "created": 1641739377044,
+      "parent": null,
+      "children": [
+        "Odo5JvNX2nDLnJ1jim3Pg"
+      ],
+      "data": {},
+      "contentHash": "090bcb4751ee7635f63ebd18b94dedf9",
+      "stub": true,
+      "custom": {
+        "stub": true,
+        "nav_order": 3
+      },
+      "body": "\n\n"
+    },
+    {
+      "id": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "title": "Python",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "python",
+      "updated": 1641745070576,
+      "created": 1641745070576,
+      "parent": null,
+      "children": [
+        "uvOyqp7f7sj2CxwroIGXx",
+        "5Cf45sPCA2vDYIdN12aIA"
+      ],
+      "data": {},
+      "contentHash": "98a49cdaa835b01eb7fc357a3a2fed87",
+      "stub": true,
+      "custom": {
+        "stub": true,
+        "nav_order": 4
+      },
+      "body": "\n"
     }
   ],
   "noteIndex": {

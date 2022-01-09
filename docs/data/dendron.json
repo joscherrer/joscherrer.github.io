@@ -10,15 +10,19 @@
   "site": {
     "copyAssets": true,
     "siteHierarchies": [
-      "infrastructure"
+      "infrastructure",
+      "git",
+      "keyboards",
+      "environments",
+      "python"
     ],
     "siteUrl": "https://docs.bbrain.io",
     "siteRootDir": "docs",
     "usePrettyRefs": true,
-    "title": "Dendron",
+    "title": "Docs",
     "description": "Personal knowledge space",
     "siteLastModified": true,
-    "gh_edit_branch": "main",
+    "gh_edit_branch": "master",
     "duplicateNoteBehavior": {
       "action": "useVault",
       "payload": [
@@ -67,12 +71,12 @@
     "journal": {
       "dailyDomain": "daily",
       "name": "journal",
-      "dateFormat": "y.MM.dd",
+      "dateFormat": "yyyy.MM.dd",
       "addBehavior": "childOfDomain"
     },
     "scratch": {
       "name": "scratch",
-      "dateFormat": "y.MM.dd.HHmmss",
+      "dateFormat": "yyyy.MM.dd.HHmmss",
       "addBehavior": "asOwnDomain"
     },
     "task": {

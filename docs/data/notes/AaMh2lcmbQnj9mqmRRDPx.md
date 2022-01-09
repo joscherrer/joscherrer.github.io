@@ -42,4 +42,4 @@ gh repo edit joscherrer/$repo_name --add-topic qmk --add-topic "km--${keymap}" -
 
 Here is my current layout
 
-![layout](assets/images/keymap.png)
+![layout](/assets/images/keymap.png)

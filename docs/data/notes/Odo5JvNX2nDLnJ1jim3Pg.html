@@ -1,5 +1,6 @@
 <h1 id="windows"><a aria-hidden="true" class="anchor-heading" href="#windows"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Windows</h1>
 <h2 id="keyboard-rate"><a aria-hidden="true" class="anchor-heading" href="#keyboard-rate"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Keyboard rate</h2>
+<p>To set my preferred keyboard rate, either execute the following <code>.reg</code> file :</p>
 <pre class="language-reg"><code class="language-reg">Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
@@ -8,5 +9,12 @@
 "DelayBeforeAcceptance"="0"
 "Flags"="27"
 "BounceTime"="0"
+</code></pre>
+<p>Or execute these commands in a powershell :</p>
+<pre class="language-powershell"><code class="language-powershell"><span class="token function">Set-ItemProperty</span> <span class="token operator">-</span>path <span class="token string">'HKCU:\Control Panel\Accessibility\Keyboard Response'</span> <span class="token operator">-</span>Name <span class="token string">"AutoRepeatDelay"</span> <span class="token operator">-</span>Value <span class="token string">"200"</span>
+<span class="token function">Set-ItemProperty</span> <span class="token operator">-</span>path <span class="token string">'HKCU:\Control Panel\Accessibility\Keyboard Response'</span> <span class="token operator">-</span>Name <span class="token string">"AutoRepeatRate"</span> <span class="token operator">-</span>Value <span class="token string">"6"</span>
+<span class="token function">Set-ItemProperty</span> <span class="token operator">-</span>path <span class="token string">'HKCU:\Control Panel\Accessibility\Keyboard Response'</span> <span class="token operator">-</span>Name <span class="token string">"DelayBeforeAcceptance"</span> <span class="token operator">-</span>Value <span class="token string">"0"</span>
+<span class="token function">Set-ItemProperty</span> <span class="token operator">-</span>path <span class="token string">'HKCU:\Control Panel\Accessibility\Keyboard Response'</span> <span class="token operator">-</span>Name <span class="token string">"Flags"</span> <span class="token operator">-</span>Value <span class="token string">"27"</span>
+<span class="token function">Set-ItemProperty</span> <span class="token operator">-</span>path <span class="token string">'HKCU:\Control Panel\Accessibility\Keyboard Response'</span> <span class="token operator">-</span>Name <span class="token string">"BounceTime"</span> <span class="token operator">-</span>Value <span class="token string">"0"</span>
 </code></pre>
 <p>⚠️ Don't forget to logout for the changes to be seen ⚠️</p>

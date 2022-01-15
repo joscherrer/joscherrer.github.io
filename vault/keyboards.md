@@ -2,7 +2,7 @@
 id: AaMh2lcmbQnj9mqmRRDPx
 title: Keyboards
 desc: ''
-updated: 1641765873402
+updated: 1642113133517
 created: 1641656097524
 ---
 
@@ -50,3 +50,14 @@ gh repo edit joscherrer/$repo_name --add-topic qmk --add-topic "km--${keymap}" -
 Here is my current layout
 
 ![layout](/assets/images/keymap.png)
+
+### Accents
+
+To write accentuated characters, you can use QMK combos.  
+Press a red letter key with a red accent key, or blue/blue, to get an accentuated character.
+
+![accents](/assets/images/accents.png)
+
+For example `a+i` will give you `â`.
+
+There is one exception : `î` is triggered by `f+i` as E and I collide for the circumflex.

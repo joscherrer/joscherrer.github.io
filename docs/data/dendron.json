@@ -17,6 +17,7 @@
       "python"
     ],
     "siteUrl": "https://docs.bbrain.io",
+    "githubCname": "docs.bbrain.io",
     "siteRootDir": "docs",
     "usePrettyRefs": true,
     "title": "Docs",

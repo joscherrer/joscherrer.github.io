@@ -11,8 +11,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1641766420165,
-      "created": 1641766420165,
+      "updated": 1642285657412,
+      "created": 1642285657412,
       "parent": null,
       "children": [],
       "data": {}
@@ -135,11 +135,16 @@
     "Odo5JvNX2nDLnJ1jim3Pg": {
       "id": "Odo5JvNX2nDLnJ1jim3Pg",
       "title": "Windows",
+      "desc": "",
+      "updated": 1641850983009,
+      "created": 1641739377033,
+      "custom": {},
+      "fname": "environments.windows",
+      "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "type": "note",
-      "desc": "",
+      "contentHash": "c37c43b88268eabc9b1afdcec7c38c9e",
       "links": [],
       "anchors": {
         "keyboard-rate": {
@@ -151,23 +156,25 @@
           "depth": 2
         }
       },
-      "fname": "environments.windows",
-      "updated": 1641745022605,
-      "created": 1641739377033,
-      "parent": "oDOFbJOt5YYRU9MzWaQT0",
       "children": [],
-      "data": {},
-      "contentHash": "18a860e78162d366c85399fb81b27cb0",
-      "custom": {}
+      "parent": "oDOFbJOt5YYRU9MzWaQT0",
+      "data": {}
     },
     "AaMh2lcmbQnj9mqmRRDPx": {
       "id": "AaMh2lcmbQnj9mqmRRDPx",
       "title": "Keyboards",
+      "desc": "",
+      "updated": 1642113133517,
+      "created": 1641656097524,
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "keyboards",
+      "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "type": "note",
-      "desc": "",
+      "contentHash": "ad4b5fa7d6712b216d6db6a75214e1c4",
       "links": [],
       "anchors": {
         "qmk": {
@@ -201,18 +208,19 @@
           "line": 47,
           "column": 0,
           "depth": 2
+        },
+        "accents": {
+          "type": "header",
+          "text": "Accents",
+          "value": "accents",
+          "line": 53,
+          "column": 0,
+          "depth": 3
         }
       },
-      "fname": "keyboards",
-      "updated": 1641765873402,
-      "created": 1641656097524,
-      "parent": null,
       "children": [],
-      "data": {},
-      "contentHash": "476f1a9838db11cccbf1ab47617d5f60",
-      "custom": {
-        "nav_order": 2
-      }
+      "parent": null,
+      "data": {}
     },
     "esZXrAjmKkTyLkVG5Iyeb": {
       "id": "esZXrAjmKkTyLkVG5Iyeb",
@@ -357,11 +365,18 @@
     {
       "id": "AaMh2lcmbQnj9mqmRRDPx",
       "title": "Keyboards",
+      "desc": "",
+      "updated": 1642113133517,
+      "created": 1641656097524,
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "keyboards",
+      "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "type": "note",
-      "desc": "",
+      "contentHash": "ad4b5fa7d6712b216d6db6a75214e1c4",
       "links": [],
       "anchors": {
         "qmk": {
@@ -395,19 +410,20 @@
           "line": 47,
           "column": 0,
           "depth": 2
+        },
+        "accents": {
+          "type": "header",
+          "text": "Accents",
+          "value": "accents",
+          "line": 53,
+          "column": 0,
+          "depth": 3
         }
       },
-      "fname": "keyboards",
-      "updated": 1641765873402,
-      "created": 1641656097524,
-      "parent": null,
       "children": [],
+      "parent": null,
       "data": {},
-      "contentHash": "476f1a9838db11cccbf1ab47617d5f60",
-      "custom": {
-        "nav_order": 2
-      },
-      "body": "\nThis is the homepage for anything related to keyboards\n\n## QMK\n\nTo install QMK :\n\n- Follow the setup procedure on [QMK Documentation](docs.qmk.fm)\n- Run [this gist](https://gist.github.com/joscherrer/e1274d2c49884b12ed3f9af14dd3a4e7) to clone all the custom keymaps\n```bash\ncurl -fsSL https://git.io/J9GFJ | python3 - -f\n```\n\n## Keymaps\n\nTo create a new keymap :\n\n- Create a github repository\n- Set the following topics on the repo :\n    - `qmk`\n    - `kb--<keyboard>` (keyboard path with `/` replaced by `-`)\n    - `km--<keymap>`\n\nFor example, on a repo for the ai03 polaris keyboard the topics should be :\n- `qmk`\n- `kb--ai03-polaris`\n- `km--jonathan`\n\n### Example\n\n```bash\nprintf \"keyboard: \" >&2; read -r keyboard\nprintf \"keymap: \" >&2; read -r keymap\nprintf \"Repo name: \" >&2; read -r repo_name\nkeyboard=$(tr '/' '-' <<< $keyboard | sed 's/_/---/')\n\ngh repo create \"$repo_name\" --public\ngh repo edit joscherrer/$repo_name --add-topic qmk --add-topic \"km--${keymap}\" --add-topic \"kb--$keyboard\"\n```\n\n## Layout\n\nHere is my current layout\n\n![layout](/assets/images/keymap.png)\n"
+      "body": "\nThis is the homepage for anything related to keyboards\n\n## QMK\n\nTo install QMK :\n\n- Follow the setup procedure on [QMK Documentation](docs.qmk.fm)\n- Run [this gist](https://gist.github.com/joscherrer/e1274d2c49884b12ed3f9af14dd3a4e7) to clone all the custom keymaps\n```bash\ncurl -fsSL https://git.io/J9GFJ | python3 - -f\n```\n\n## Keymaps\n\nTo create a new keymap :\n\n- Create a github repository\n- Set the following topics on the repo :\n    - `qmk`\n    - `kb--<keyboard>` (keyboard path with `/` replaced by `-`)\n    - `km--<keymap>`\n\nFor example, on a repo for the ai03 polaris keyboard the topics should be :\n- `qmk`\n- `kb--ai03-polaris`\n- `km--jonathan`\n\n### Example\n\n```bash\nprintf \"keyboard: \" >&2; read -r keyboard\nprintf \"keymap: \" >&2; read -r keymap\nprintf \"Repo name: \" >&2; read -r repo_name\nkeyboard=$(tr '/' '-' <<< $keyboard | sed 's/_/---/')\n\ngh repo create \"$repo_name\" --public\ngh repo edit joscherrer/$repo_name --add-topic qmk --add-topic \"km--${keymap}\" --add-topic \"kb--$keyboard\"\n```\n\n## Layout\n\nHere is my current layout\n\n![layout](/assets/images/keymap.png)\n\n### Accents\n\nTo write accentuated characters, you can use QMK combos.  \nPress a red letter key with a red accent key, or blue/blue, to get an accentuated character.\n\n![accents](/assets/images/accents.png)\n\nFor example `a+i` will give you `â`.\n\nThere is one exception : `î` is triggered by `f+i` as E and I collide for the circumflex."
     },
     {
       "id": "oDOFbJOt5YYRU9MzWaQT0",

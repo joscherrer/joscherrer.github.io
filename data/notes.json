@@ -1,0 +1,895 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654202110745,
+      "created": 1654202110745,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "tpieb52ap7scva914nb9yzl": {
+      "fname": "projects",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654202110538,
+      "created": 1654202110538,
+      "id": "tpieb52ap7scva914nb9yzl",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1vas9emru4qd67ndevnbaun"
+      ],
+      "parent": null,
+      "data": {},
+      "title": "Projects",
+      "custom": {
+        "nav_order": 5
+      }
+    },
+    "1vas9emru4qd67ndevnbaun": {
+      "id": "1vas9emru4qd67ndevnbaun",
+      "title": "Doorbell",
+      "desc": "",
+      "updated": 1654200101237,
+      "created": 1654185774400,
+      "custom": {},
+      "fname": "projects.doorbell",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "60fa4fc8127a1638724784bfd4272543",
+      "links": [],
+      "anchors": {
+        "general-workflow": {
+          "type": "header",
+          "text": "General Workflow",
+          "value": "general-workflow",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "update-workflow": {
+          "type": "header",
+          "text": "Update Workflow",
+          "value": "update-workflow",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "building-the-firmware": {
+          "type": "header",
+          "text": "Building the firmware",
+          "value": "building-the-firmware",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "tpieb52ap7scva914nb9yzl",
+      "data": {}
+    },
+    "Ryqt7Uj1Qzbm4h4jOW4jD": {
+      "id": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "title": "Python",
+      "desc": "",
+      "updated": 1642612141306,
+      "created": 1641745070576,
+      "custom": {
+        "nav_order": 4
+      },
+      "fname": "python",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4a20b28d5c8e10f5f3611d141eff7659",
+      "links": [],
+      "anchors": {
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "uvOyqp7f7sj2CxwroIGXx",
+        "5Cf45sPCA2vDYIdN12aIA"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "5Cf45sPCA2vDYIdN12aIA": {
+      "id": "5Cf45sPCA2vDYIdN12aIA",
+      "title": "Urllib",
+      "desc": "",
+      "updated": 1641658986258,
+      "created": 1641657996060,
+      "custom": {},
+      "fname": "python.urllib",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ebcc1ba41af8fd83c39cab8d293b721f",
+      "links": [],
+      "anchors": {
+        "sample-get-request": {
+          "type": "header",
+          "text": "Sample GET request",
+          "value": "sample-get-request",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "sample-post-request": {
+          "type": "header",
+          "text": "Sample POST request",
+          "value": "sample-post-request",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "data": {}
+    },
+    "uvOyqp7f7sj2CxwroIGXx": {
+      "id": "uvOyqp7f7sj2CxwroIGXx",
+      "title": "Argparse",
+      "desc": "",
+      "updated": 1641751952635,
+      "created": 1641751672406,
+      "custom": {},
+      "fname": "python.argparse",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e4da82bbfb312f96fe81b8b7bdca24d6",
+      "links": [],
+      "anchors": {
+        "basic-argparse-setup": {
+          "type": "header",
+          "text": "Basic argparse setup",
+          "value": "basic-argparse-setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "data": {}
+    },
+    "oDOFbJOt5YYRU9MzWaQT0": {
+      "id": "oDOFbJOt5YYRU9MzWaQT0",
+      "title": "Environments",
+      "desc": "",
+      "updated": 1641739390049,
+      "created": 1641739377044,
+      "stub": true,
+      "nav_order": 3,
+      "custom": {
+        "stub": true,
+        "nav_order": 3
+      },
+      "fname": "environments",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "090bcb4751ee7635f63ebd18b94dedf9",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "GpybNOeMZIrwdkWVOxSt5",
+        "Odo5JvNX2nDLnJ1jim3Pg"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "Odo5JvNX2nDLnJ1jim3Pg": {
+      "id": "Odo5JvNX2nDLnJ1jim3Pg",
+      "title": "Windows",
+      "desc": "",
+      "updated": 1644525773328,
+      "created": 1641739377033,
+      "custom": {},
+      "fname": "environments.windows",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1c03f4aeaba886c44bede8c46190bc6f",
+      "links": [],
+      "anchors": {
+        "prerequisites": {
+          "type": "header",
+          "text": "Prerequisites",
+          "value": "prerequisites",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "openssh-server": {
+          "type": "header",
+          "text": "Openssh server",
+          "value": "openssh-server",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "keyboard-rate": {
+          "type": "header",
+          "text": "Keyboard rate",
+          "value": "keyboard-rate",
+          "line": 55,
+          "column": 0,
+          "depth": 2
+        },
+        "taskbar-hover-time": {
+          "type": "header",
+          "text": "Taskbar Hover time",
+          "value": "taskbar-hover-time",
+          "line": 82,
+          "column": 0,
+          "depth": 2
+        },
+        "wsl": {
+          "type": "header",
+          "text": "WSL",
+          "value": "wsl",
+          "line": 88,
+          "column": 0,
+          "depth": 2
+        },
+        "fonts": {
+          "type": "header",
+          "text": "Fonts",
+          "value": "fonts",
+          "line": 95,
+          "column": 0,
+          "depth": 2
+        },
+        "clipboard": {
+          "type": "header",
+          "text": "Clipboard",
+          "value": "clipboard",
+          "line": 105,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "oDOFbJOt5YYRU9MzWaQT0",
+      "data": {}
+    },
+    "GpybNOeMZIrwdkWVOxSt5": {
+      "id": "GpybNOeMZIrwdkWVOxSt5",
+      "title": "Linux",
+      "desc": "",
+      "updated": 1642854340156,
+      "created": 1642456587534,
+      "custom": {},
+      "fname": "environments.linux",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "65f546722edc90b87f6339d97329f20c",
+      "links": [],
+      "anchors": {
+        "dotfiles": {
+          "type": "header",
+          "text": "Dotfiles",
+          "value": "dotfiles",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "oDOFbJOt5YYRU9MzWaQT0",
+      "data": {}
+    },
+    "AaMh2lcmbQnj9mqmRRDPx": {
+      "id": "AaMh2lcmbQnj9mqmRRDPx",
+      "title": "Keyboards",
+      "desc": "",
+      "updated": 1642113133517,
+      "created": 1641656097524,
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "keyboards",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ad4b5fa7d6712b216d6db6a75214e1c4",
+      "links": [],
+      "anchors": {
+        "qmk": {
+          "type": "header",
+          "text": "QMK",
+          "value": "qmk",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "keymaps": {
+          "type": "header",
+          "text": "Keymaps",
+          "value": "keymaps",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "example": {
+          "type": "header",
+          "text": "Example",
+          "value": "example",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "layout": {
+          "type": "header",
+          "text": "Layout",
+          "value": "layout",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "accents": {
+          "type": "header",
+          "text": "Accents",
+          "value": "accents",
+          "line": 53,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "esZXrAjmKkTyLkVG5Iyeb": {
+      "id": "esZXrAjmKkTyLkVG5Iyeb",
+      "title": "Git",
+      "desc": "",
+      "updated": 1641744531441,
+      "created": 1641739397629,
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "git",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "190a55f10dee6f1e58596f38f71a3f6b",
+      "links": [],
+      "anchors": {
+        "change-past-commit-author": {
+          "type": "header",
+          "text": "Change past commit author",
+          "value": "change-past-commit-author",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "interactive-rebase": {
+          "type": "header",
+          "text": "Interactive rebase",
+          "value": "interactive-rebase",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "replace": {
+          "type": "header",
+          "text": "Replace",
+          "value": "replace",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "ACmIaoniWX1pK5upZqwF4": {
+      "id": "ACmIaoniWX1pK5upZqwF4",
+      "title": "Infrastructure",
+      "desc": "",
+      "updated": 1644158025787,
+      "created": 1641149787317,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "infrastructure",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "62480da9abef0bc86d140688f95f22c5",
+      "links": [],
+      "anchors": {
+        "entrypoint": {
+          "type": "header",
+          "text": "Entrypoint",
+          "value": "entrypoint",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "bootstrap": {
+          "type": "header",
+          "text": "Bootstrap",
+          "value": "bootstrap",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "hardening": {
+          "type": "header",
+          "text": "Hardening",
+          "value": "hardening",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "8NrarbQZt3SzDSH5WW0o5",
+        "8ja66wzpll198gh2i3b0jkc"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "8ja66wzpll198gh2i3b0jkc": {
+      "fname": "infrastructure.kubernetes",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654202110540,
+      "created": 1654202110540,
+      "id": "8ja66wzpll198gh2i3b0jkc",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "A49UF6F6j25U1k79vXh4y",
+        "HQryZC3xRqu0hG0xSE3nS"
+      ],
+      "parent": "ACmIaoniWX1pK5upZqwF4",
+      "data": {},
+      "title": "Kubernetes"
+    },
+    "HQryZC3xRqu0hG0xSE3nS": {
+      "id": "HQryZC3xRqu0hG0xSE3nS",
+      "title": "Storage",
+      "desc": "",
+      "updated": 1643484005490,
+      "created": 1643483772053,
+      "custom": {},
+      "fname": "infrastructure.kubernetes.storage",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "bc99690e3af428476f9bd27e526a4cf0",
+      "links": [],
+      "anchors": {
+        "nfs-storage-class": {
+          "type": "header",
+          "text": "NFS Storage class",
+          "value": "nfs-storage-class",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8ja66wzpll198gh2i3b0jkc",
+      "data": {}
+    },
+    "A49UF6F6j25U1k79vXh4y": {
+      "id": "A49UF6F6j25U1k79vXh4y",
+      "title": "Networking",
+      "desc": "",
+      "updated": 1643484063430,
+      "created": 1643483751470,
+      "custom": {},
+      "fname": "infrastructure.kubernetes.networking",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f5a19b6d18160f912530596a1f0a9010",
+      "links": [],
+      "anchors": {
+        "ingress-controller": {
+          "type": "header",
+          "text": "Ingress Controller",
+          "value": "ingress-controller",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "loadbalancer": {
+          "type": "header",
+          "text": "LoadBalancer",
+          "value": "loadbalancer",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "links": {
+          "type": "header",
+          "text": "Links",
+          "value": "links",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8ja66wzpll198gh2i3b0jkc",
+      "data": {}
+    },
+    "8NrarbQZt3SzDSH5WW0o5": {
+      "id": "8NrarbQZt3SzDSH5WW0o5",
+      "title": "Kvm",
+      "desc": "",
+      "updated": 1644526010632,
+      "created": 1644525989029,
+      "custom": {},
+      "fname": "infrastructure.kvm",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "162c6a8da930e03afa865daf03868f31",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ACmIaoniWX1pK5upZqwF4",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "ACmIaoniWX1pK5upZqwF4",
+      "title": "Infrastructure",
+      "desc": "",
+      "updated": 1644158025787,
+      "created": 1641149787317,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "infrastructure",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "62480da9abef0bc86d140688f95f22c5",
+      "links": [],
+      "anchors": {
+        "entrypoint": {
+          "type": "header",
+          "text": "Entrypoint",
+          "value": "entrypoint",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "bootstrap": {
+          "type": "header",
+          "text": "Bootstrap",
+          "value": "bootstrap",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "hardening": {
+          "type": "header",
+          "text": "Hardening",
+          "value": "hardening",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "8NrarbQZt3SzDSH5WW0o5",
+        "8ja66wzpll198gh2i3b0jkc"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nThis is the root of my infrastructure documentation.\n\n## Entrypoint\n\nTo manage my infrastructure, I have an [Ansible collection](https://github.com/jonsible/iac) that holds several roles and playbooks.\n\nI also have an [inventory repository](https://github.com/jonsible/inventory) which is private, that holds :\n- Bare machines, meaning bare-metal hosts and virtual machines that I pay for\n- VMs, meaning virtual machines that I provisioned in my KVM infrastructure.\n\n## Bootstrap\n\nUsually, the first role to run when creating a new server is the [bootstrap role](https://github.com/jonsible/iac/tree/master/roles/bootstrap).\n\n- It creates the default user (configured by the `default_user` variable)\n- Installs a public key in the user's `authorized_keys` by retrieving it from `github` (configured by the `github_user` variable)\n- Sets up passwordless sudo\n- Installs required components\n\n## Hardening\n\nThe [hardening role](https://github.com/jonsible/iac/tree/master/roles/hardening) will perform multiple steps to secure the server.\n\n- Remove `ufw`\n- Install iptables\n- Install and configure `fail2ban`\n- "
+    },
+    {
+      "id": "esZXrAjmKkTyLkVG5Iyeb",
+      "title": "Git",
+      "desc": "",
+      "updated": 1641744531441,
+      "created": 1641739397629,
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "git",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "190a55f10dee6f1e58596f38f71a3f6b",
+      "links": [],
+      "anchors": {
+        "change-past-commit-author": {
+          "type": "header",
+          "text": "Change past commit author",
+          "value": "change-past-commit-author",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "interactive-rebase": {
+          "type": "header",
+          "text": "Interactive rebase",
+          "value": "interactive-rebase",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "replace": {
+          "type": "header",
+          "text": "Replace",
+          "value": "replace",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": null,
+      "data": {},
+      "body": "\n## Change past commit author\n\n### Interactive rebase\n\nInteractive rebase off of a point earlier in the history than the commit you need to modify (`git rebase -i <earliercommit>`). In the list of commits being rebased, change the text from `pick` to `edit` next to the hash of the one you want to modify. Then when git prompts you to change the commit, use this:\n\n    git commit --amend --author=\"Author Name <email@address.com>\" --no-edit\n\nFor example, if your commit history is `A-B-C-D-E-F` with `F` as `HEAD`, and you want to change the author of `C` and `D`, then you would...\n\n 1. Specify `git rebase -i B` ([here is an example of what you will see after executing the `git rebase -i B` command](https://help.github.com/articles/about-git-rebase/#an-example-of-using-git-rebase))\n * if you need to edit `A`, use `git rebase -i --root`\n 2. Change the lines for both `C` and `D` from `pick` to `edit`\n 3. Exit the editor (for vim, this would be pressing Esc and then typing `:wq`).\n 3. Once the rebase started, it would first pause at `C`\n 4. You would `git commit --amend --author=\"Author Name <email@address.com>\"`\n 5. Then `git rebase --continue`\n 6. It would pause again at `D`\n 7. Then you would `git commit --amend --author=\"Author Name <email@address.com>\"` again\n 8. `git rebase --continue`\n 9. The rebase would complete.\n 10. Use `git push -f` to update your origin with the updated commits.\n\n\n```bash\n# https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit\ngit log # To find the commit hash - 1\ngit rebase -i <hash>\n# change pick to edit\ngit commit --amend --author=\"Jonathan Scherrer <jonathan.s.scherrer@gmail.com>\"\ngit rebase --continue\ngit push -f\n```\n\n### Replace\n\nThe [accepted answer][1] to this question is a wonderfully clever use of interactive rebase, but it unfortunately exhibits conflicts if the commit we are trying to change the author of used to be on a branch which was subsequently merged in. More generally, it does not work when handling messy histories.\n\nSince I am apprehensive about running scripts which depend on setting and unsetting environment variables to rewrite git history, I am writing a new answer based on [this post](https://help.github.com/articles/changing-author-info/) which is similar to [this answer](https://stackoverflow.com/a/3404304/391161) but is more complete.\n\nThe following is tested and working, unlike the linked answer.\nAssume for clarity of exposition that `03f482d6` is the commit whose author we are trying to replace, and `42627abe` is the commit with the new author. \n\n1. Checkout the commit we are trying to modify. \n      \n        git checkout 03f482d6\n2. Make the author change.\n\n        git commit --amend --author \"New Author Name <New Author Email>\"\n\n  Now we have a new commit with hash assumed to be `42627abe`.\n\n3. Checkout the original branch.\n\n4. Replace the old commit with the new one locally.\n\n        git replace 03f482d6 42627abe\n\n5. Rewrite all future commits based on the replacement.\n\n        git filter-branch -- --all\n\n6. Remove the replacement for cleanliness.\n\n        git replace -d 03f482d6\n\n7. Push the new history (only use --force if the below fails, and only after sanity checking with `git log` and/or `git diff`).\n\n        git push --force-with-lease\n\nInstead of 4-5 you can just rebase onto new commit:\n\n    git rebase -i 42627abe\n\n[1]: https://stackoverflow.com/a/3042512/3357935"
+    },
+    {
+      "id": "AaMh2lcmbQnj9mqmRRDPx",
+      "title": "Keyboards",
+      "desc": "",
+      "updated": 1642113133517,
+      "created": 1641656097524,
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "keyboards",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ad4b5fa7d6712b216d6db6a75214e1c4",
+      "links": [],
+      "anchors": {
+        "qmk": {
+          "type": "header",
+          "text": "QMK",
+          "value": "qmk",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "keymaps": {
+          "type": "header",
+          "text": "Keymaps",
+          "value": "keymaps",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "example": {
+          "type": "header",
+          "text": "Example",
+          "value": "example",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "layout": {
+          "type": "header",
+          "text": "Layout",
+          "value": "layout",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "accents": {
+          "type": "header",
+          "text": "Accents",
+          "value": "accents",
+          "line": 53,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": null,
+      "data": {},
+      "body": "\nThis is the homepage for anything related to keyboards\n\n## QMK\n\nTo install QMK :\n\n- Follow the setup procedure on [QMK Documentation](docs.qmk.fm)\n- Run [this gist](https://gist.github.com/joscherrer/e1274d2c49884b12ed3f9af14dd3a4e7) to clone all the custom keymaps\n```bash\ncurl -fsSL https://git.io/J9GFJ | python3 - -f\n```\n\n## Keymaps\n\nTo create a new keymap :\n\n- Create a github repository\n- Set the following topics on the repo :\n    - `qmk`\n    - `kb--<keyboard>` (keyboard path with `/` replaced by `-`)\n    - `km--<keymap>`\n\nFor example, on a repo for the ai03 polaris keyboard the topics should be :\n- `qmk`\n- `kb--ai03-polaris`\n- `km--jonathan`\n\n### Example\n\n```bash\nprintf \"keyboard: \" >&2; read -r keyboard\nprintf \"keymap: \" >&2; read -r keymap\nprintf \"Repo name: \" >&2; read -r repo_name\nkeyboard=$(tr '/' '-' <<< $keyboard | sed 's/_/---/')\n\ngh repo create \"$repo_name\" --public\ngh repo edit joscherrer/$repo_name --add-topic qmk --add-topic \"km--${keymap}\" --add-topic \"kb--$keyboard\"\n```\n\n## Layout\n\nHere is my current layout\n\n![layout](/assets/images/keymap.png)\n\n### Accents\n\nTo write accentuated characters, you can use QMK combos.  \nPress a red letter key with a red accent key, or blue/blue, to get an accentuated character.\n\n![accents](/assets/images/accents.png)\n\nFor example `a+i` will give you `â`.\n\nThere is one exception : `î` is triggered by `f+i` as E and I collide for the circumflex."
+    },
+    {
+      "id": "oDOFbJOt5YYRU9MzWaQT0",
+      "title": "Environments",
+      "desc": "",
+      "updated": 1641739390049,
+      "created": 1641739377044,
+      "stub": true,
+      "nav_order": 3,
+      "custom": {
+        "stub": true,
+        "nav_order": 3
+      },
+      "fname": "environments",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "090bcb4751ee7635f63ebd18b94dedf9",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "GpybNOeMZIrwdkWVOxSt5",
+        "Odo5JvNX2nDLnJ1jim3Pg"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n\n"
+    },
+    {
+      "id": "Ryqt7Uj1Qzbm4h4jOW4jD",
+      "title": "Python",
+      "desc": "",
+      "updated": 1642612141306,
+      "created": 1641745070576,
+      "custom": {
+        "nav_order": 4
+      },
+      "fname": "python",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4a20b28d5c8e10f5f3611d141eff7659",
+      "links": [],
+      "anchors": {
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "uvOyqp7f7sj2CxwroIGXx",
+        "5Cf45sPCA2vDYIdN12aIA"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n## Setup\n\nInstall required components\n```\n\n```\n\n```\npdm init\n```"
+    },
+    {
+      "fname": "projects",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654202110538,
+      "created": 1654202110538,
+      "id": "tpieb52ap7scva914nb9yzl",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1vas9emru4qd67ndevnbaun"
+      ],
+      "parent": null,
+      "body": "",
+      "data": {},
+      "title": "Projects",
+      "custom": {
+        "nav_order": 5
+      }
+    }
+  ],
+  "noteIndex": {
+    "id": "ACmIaoniWX1pK5upZqwF4",
+    "title": "Infrastructure",
+    "desc": "",
+    "updated": 1644158025787,
+    "created": 1641149787317,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "infrastructure",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "62480da9abef0bc86d140688f95f22c5",
+    "links": [],
+    "anchors": {
+      "entrypoint": {
+        "type": "header",
+        "text": "Entrypoint",
+        "value": "entrypoint",
+        "line": 10,
+        "column": 0,
+        "depth": 2
+      },
+      "bootstrap": {
+        "type": "header",
+        "text": "Bootstrap",
+        "value": "bootstrap",
+        "line": 18,
+        "column": 0,
+        "depth": 2
+      },
+      "hardening": {
+        "type": "header",
+        "text": "Hardening",
+        "value": "hardening",
+        "line": 27,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [
+      "8NrarbQZt3SzDSH5WW0o5",
+      "8ja66wzpll198gh2i3b0jkc"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nThis is the root of my infrastructure documentation.\n\n## Entrypoint\n\nTo manage my infrastructure, I have an [Ansible collection](https://github.com/jonsible/iac) that holds several roles and playbooks.\n\nI also have an [inventory repository](https://github.com/jonsible/inventory) which is private, that holds :\n- Bare machines, meaning bare-metal hosts and virtual machines that I pay for\n- VMs, meaning virtual machines that I provisioned in my KVM infrastructure.\n\n## Bootstrap\n\nUsually, the first role to run when creating a new server is the [bootstrap role](https://github.com/jonsible/iac/tree/master/roles/bootstrap).\n\n- It creates the default user (configured by the `default_user` variable)\n- Installs a public key in the user's `authorized_keys` by retrieving it from `github` (configured by the `github_user` variable)\n- Sets up passwordless sudo\n- Installs required components\n\n## Hardening\n\nThe [hardening role](https://github.com/jonsible/iac/tree/master/roles/hardening) will perform multiple steps to secure the server.\n\n- Remove `ufw`\n- Install iptables\n- Install and configure `fail2ban`\n- "
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

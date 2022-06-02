@@ -1,0 +1,18 @@
+<h1 id="doorbell"><a aria-hidden="true" class="anchor-heading" href="#doorbell"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Doorbell</h1>
+<p>This is the documentation for the connected doorbell used at my parent's house.</p>
+<h2 id="general-workflow"><a aria-hidden="true" class="anchor-heading" href="#general-workflow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>General Workflow</h2>
+<p><img src="/assets/doorbell.png" alt="doorbell-workflow"></p>
+<h2 id="update-workflow"><a aria-hidden="true" class="anchor-heading" href="#update-workflow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Update Workflow</h2>
+<p><img src="/assets/doorbell_update.png" alt="doorbell-update"></p>
+<h2 id="building-the-firmware"><a aria-hidden="true" class="anchor-heading" href="#building-the-firmware"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Building the firmware</h2>
+<p>Follow Espressif's <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html">Getting Started</a> to install esp-idf.</p>
+<p>Clone the <code>doorbell</code> project and open it in VSCode :</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone git@github.com:joscherrer/doorbell.git
+code doorbell/
+</code></pre>
+<p>Configure the project with the command <code>ESP-IDF: SDK Configuration editor (menuconfig)</code>.  </p>
+<ol>
+<li>In the <em>OTA</em> menu, configure the update URL and other parameters</li>
+<li>In the <em>Serial Flasher config</em> menu, update the Flash size to 4MB minimum</li>
+<li>In the <em>Partition table</em> menu, update the Partition table to <code>Factory app, two OTA definitions</code></li>
+</ol>

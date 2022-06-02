@@ -1,0 +1,10 @@
+<h1 id="argparse"><a aria-hidden="true" class="anchor-heading" href="#argparse"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Argparse</h1>
+<h2 id="basic-argparse-setup"><a aria-hidden="true" class="anchor-heading" href="#basic-argparse-setup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Basic argparse setup</h2>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> argparse
+
+parser <span class="token operator">=</span> argparse<span class="token punctuation">.</span>ArgumentParser<span class="token punctuation">(</span><span class="token punctuation">)</span>
+parser<span class="token punctuation">.</span>add_argument<span class="token punctuation">(</span><span class="token string">"-f"</span><span class="token punctuation">,</span> <span class="token string">"--flag"</span><span class="token punctuation">,</span> action<span class="token operator">=</span><span class="token string">'store_true'</span><span class="token punctuation">)</span> <span class="token comment"># Flag (default: false)</span>
+parser<span class="token punctuation">.</span>add_argument<span class="token punctuation">(</span><span class="token string">"-i"</span><span class="token punctuation">,</span> <span class="token string">"--item"</span><span class="token punctuation">,</span> <span class="token builtin">type</span><span class="token operator">=</span><span class="token builtin">str</span><span class="token punctuation">)</span> <span class="token comment"># Optional</span>
+parser<span class="token punctuation">.</span>add_argument<span class="token punctuation">(</span><span class="token string">"x"</span><span class="token punctuation">,</span> <span class="token builtin">type</span><span class="token operator">=</span><span class="token builtin">str</span><span class="token punctuation">)</span> <span class="token comment"># Positional</span>
+parser<span class="token punctuation">.</span>parse_args<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>

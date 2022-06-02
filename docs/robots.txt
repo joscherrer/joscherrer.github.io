@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://docs.bbrain.io
+
+# Sitemaps
+Sitemap: https://docs.bbrain.io/sitemap.xml

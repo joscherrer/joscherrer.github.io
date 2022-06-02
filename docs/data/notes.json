@@ -9,13 +9,73 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1654187006115,
-      "created": 1654187006115,
+      "updated": 1654187855784,
+      "created": 1654187855784,
       "desc": "",
       "links": [],
       "anchors": {},
       "children": [],
       "parent": null,
+      "data": {}
+    },
+    "gm7qqsvuqmft13l8asfnzrq": {
+      "fname": "projects",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654187854769,
+      "created": 1654187854769,
+      "id": "gm7qqsvuqmft13l8asfnzrq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1vas9emru4qd67ndevnbaun"
+      ],
+      "parent": null,
+      "data": {},
+      "title": "Projects",
+      "custom": {
+        "nav_order": 5
+      }
+    },
+    "1vas9emru4qd67ndevnbaun": {
+      "id": "1vas9emru4qd67ndevnbaun",
+      "title": "Doorbell",
+      "desc": "",
+      "updated": 1654185777182,
+      "created": 1654185774400,
+      "custom": {},
+      "fname": "projects.doorbell",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "02c907ea052612e54bb0eee3c6593579",
+      "links": [],
+      "anchors": {
+        "general-workflow": {
+          "type": "header",
+          "text": "General Workflow",
+          "value": "general-workflow",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "update-workflow": {
+          "type": "header",
+          "text": "Update Workflow",
+          "value": "update-workflow",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "gm7qqsvuqmft13l8asfnzrq",
       "data": {}
     },
     "Ryqt7Uj1Qzbm4h4jOW4jD": {
@@ -397,32 +457,13 @@
         }
       },
       "children": [
-        "02klc5hru27v01cc85fmz9t",
-        "8NrarbQZt3SzDSH5WW0o5"
+        "8NrarbQZt3SzDSH5WW0o5",
+        "5ka687wljzl5f8huxwvyl6v"
       ],
       "parent": null,
       "data": {}
     },
-    "8NrarbQZt3SzDSH5WW0o5": {
-      "id": "8NrarbQZt3SzDSH5WW0o5",
-      "title": "Kvm",
-      "desc": "",
-      "updated": 1644526010632,
-      "created": 1644525989029,
-      "custom": {},
-      "fname": "infrastructure.kvm",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "162c6a8da930e03afa865daf03868f31",
-      "links": [],
-      "anchors": {},
-      "children": [],
-      "parent": "ACmIaoniWX1pK5upZqwF4",
-      "data": {}
-    },
-    "02klc5hru27v01cc85fmz9t": {
+    "5ka687wljzl5f8huxwvyl6v": {
       "fname": "infrastructure.kubernetes",
       "stub": true,
       "vault": {
@@ -430,9 +471,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1654184312562,
-      "created": 1654184312562,
-      "id": "02klc5hru27v01cc85fmz9t",
+      "updated": 1654187854770,
+      "created": 1654187854770,
+      "id": "5ka687wljzl5f8huxwvyl6v",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -469,7 +510,7 @@
         }
       },
       "children": [],
-      "parent": "02klc5hru27v01cc85fmz9t",
+      "parent": "5ka687wljzl5f8huxwvyl6v",
       "data": {}
     },
     "A49UF6F6j25U1k79vXh4y": {
@@ -513,7 +554,26 @@
         }
       },
       "children": [],
-      "parent": "02klc5hru27v01cc85fmz9t",
+      "parent": "5ka687wljzl5f8huxwvyl6v",
+      "data": {}
+    },
+    "8NrarbQZt3SzDSH5WW0o5": {
+      "id": "8NrarbQZt3SzDSH5WW0o5",
+      "title": "Kvm",
+      "desc": "",
+      "updated": 1644526010632,
+      "created": 1644525989029,
+      "custom": {},
+      "fname": "infrastructure.kvm",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "162c6a8da930e03afa865daf03868f31",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ACmIaoniWX1pK5upZqwF4",
       "data": {}
     }
   },
@@ -562,8 +622,8 @@
         }
       },
       "children": [
-        "02klc5hru27v01cc85fmz9t",
-        "8NrarbQZt3SzDSH5WW0o5"
+        "8NrarbQZt3SzDSH5WW0o5",
+        "5ka687wljzl5f8huxwvyl6v"
       ],
       "parent": null,
       "data": {},
@@ -739,6 +799,31 @@
       "parent": null,
       "data": {},
       "body": "\n## Setup\n\nInstall required components\n```\n\n```\n\n```\npdm init\n```"
+    },
+    {
+      "fname": "projects",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654187854769,
+      "created": 1654187854769,
+      "id": "gm7qqsvuqmft13l8asfnzrq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1vas9emru4qd67ndevnbaun"
+      ],
+      "parent": null,
+      "body": "",
+      "data": {},
+      "title": "Projects",
+      "custom": {
+        "nav_order": 5
+      }
     }
   ],
   "noteIndex": {
@@ -785,8 +870,8 @@
       }
     },
     "children": [
-      "02klc5hru27v01cc85fmz9t",
-      "8NrarbQZt3SzDSH5WW0o5"
+      "8NrarbQZt3SzDSH5WW0o5",
+      "5ka687wljzl5f8huxwvyl6v"
     ],
     "parent": null,
     "data": {},

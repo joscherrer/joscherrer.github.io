@@ -9,7 +9,7 @@
       "navExclude": false,
       "children": [
         {
-          "key": "02klc5hru27v01cc85fmz9t",
+          "key": "5ka687wljzl5f8huxwvyl6v",
           "title": "Kubernetes",
           "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
@@ -120,10 +120,31 @@
           "children": []
         }
       ]
+    },
+    {
+      "key": "gm7qqsvuqmft13l8asfnzrq",
+      "title": "Projects",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "1vas9emru4qd67ndevnbaun",
+          "title": "Doorbell",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        }
+      ]
     }
   ],
   "child2parent": {
     "403": null,
+    "gm7qqsvuqmft13l8asfnzrq": null,
+    "1vas9emru4qd67ndevnbaun": "gm7qqsvuqmft13l8asfnzrq",
     "Ryqt7Uj1Qzbm4h4jOW4jD": null,
     "5Cf45sPCA2vDYIdN12aIA": "Ryqt7Uj1Qzbm4h4jOW4jD",
     "uvOyqp7f7sj2CxwroIGXx": "Ryqt7Uj1Qzbm4h4jOW4jD",
@@ -133,9 +154,9 @@
     "AaMh2lcmbQnj9mqmRRDPx": null,
     "esZXrAjmKkTyLkVG5Iyeb": null,
     "ACmIaoniWX1pK5upZqwF4": null,
-    "8NrarbQZt3SzDSH5WW0o5": "ACmIaoniWX1pK5upZqwF4",
-    "02klc5hru27v01cc85fmz9t": "ACmIaoniWX1pK5upZqwF4",
-    "HQryZC3xRqu0hG0xSE3nS": "02klc5hru27v01cc85fmz9t",
-    "A49UF6F6j25U1k79vXh4y": "02klc5hru27v01cc85fmz9t"
+    "5ka687wljzl5f8huxwvyl6v": "ACmIaoniWX1pK5upZqwF4",
+    "HQryZC3xRqu0hG0xSE3nS": "5ka687wljzl5f8huxwvyl6v",
+    "A49UF6F6j25U1k79vXh4y": "5ka687wljzl5f8huxwvyl6v",
+    "8NrarbQZt3SzDSH5WW0o5": "ACmIaoniWX1pK5upZqwF4"
   }
 }

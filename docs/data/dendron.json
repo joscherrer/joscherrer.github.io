@@ -86,8 +86,8 @@
     "maxNoteLength": 204800,
     "enableHandlebarTemplates": false,
     "enableFullHierarchyNoteTitle": false,
-    "templateHierarchy": "template",
-    "dendronVersion": "0.97.0"
+    "dendronVersion": "0.97.0",
+    "templateHierarchy": "template"
   },
   "preview": {
     "enableFMTitle": true,
@@ -111,8 +111,10 @@
       "git",
       "keyboards",
       "environments",
-      "python"
+      "python",
+      "projects"
     ],
+    "theme": "dark",
     "enableSiteLastModified": true,
     "siteRootDir": "docs",
     "siteUrl": "https://docs.bbrain.io",

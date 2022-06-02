@@ -1,0 +1,13 @@
+<h1 id="networking"><a aria-hidden="true" class="anchor-heading" href="#networking"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Networking</h1>
+<h2 id="ingress-controller"><a aria-hidden="true" class="anchor-heading" href="#ingress-controller"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ingress Controller</h2>
+<p>The ingress controller is a bunch of reverse proxies, that will be configured to redirect traffic onto desired services (defined by <code>Ingress</code> objects).</p>
+<p>When used on an </p>
+<p>See : <a href="https://kubernetes.github.io/ingress-nginx/">ingress-nginx</a></p>
+<h2 id="loadbalancer"><a aria-hidden="true" class="anchor-heading" href="#loadbalancer"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>LoadBalancer</h2>
+<p>To expose the ingress controller to the internet, we need some kind of <del>glorified reverse proxy</del> load balancer.</p>
+<p>On promising solution is <a href="https://metallb.universe.tf/">MetalLB</a>, which enables native <code>LoadBalancer</code> kubernetes services.<br>
+However, it needs an allocable IP pool, which I don't have because I'm cheap.</p>
+<p>So we're going to use a basic HAProxy to redirect all traffic to the ingress controller.<br>
+The latter will be exposed on a <code>NodePort</code> service instead of a <code>LoadBalancer</code>.</p>
+<h2 id="links"><a aria-hidden="true" class="anchor-heading" href="#links"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Links</h2>
+<p><a href="https://itnext.io/bare-metal-kubernetes-with-kubeadm-nginx-ingress-controller-and-haproxy-bb0a7ef29d4e">Bare-metal Kubernetes with Kubeadm, NGINX ingress controller and HAProxy</a></p>

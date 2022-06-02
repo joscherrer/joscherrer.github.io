@@ -1,44 +1,7 @@
 {
-  "version": 4,
-  "useFMTitle": true,
-  "useNoteTitleForLink": true,
-  "mermaid": true,
-  "useKatex": true,
+  "version": 5,
   "dev": {
     "enablePreviewV2": true
-  },
-  "site": {
-    "copyAssets": true,
-    "siteHierarchies": [
-      "infrastructure",
-      "git",
-      "keyboards",
-      "environments",
-      "python"
-    ],
-    "siteUrl": "https://docs.bbrain.io",
-    "githubCname": "docs.bbrain.io",
-    "siteRootDir": "docs",
-    "usePrettyRefs": true,
-    "title": "Docs",
-    "description": "Personal knowledge space",
-    "siteLastModified": true,
-    "gh_edit_branch": "master",
-    "duplicateNoteBehavior": {
-      "action": "useVault",
-      "payload": [
-        "vault"
-      ]
-    },
-    "usePrettyLinks": true,
-    "siteNotesDir": "notes",
-    "siteFaviconPath": "favicon.ico",
-    "gh_edit_link": true,
-    "gh_edit_link_text": "Edit this page on GitHub",
-    "gh_root": "docs/",
-    "gh_edit_view_mode": "edit",
-    "writeStubs": true,
-    "siteIndex": "infrastructure"
   },
   "commands": {
     "lookup": {
@@ -47,7 +10,8 @@
         "confirmVaultOnCreate": false,
         "leaveTrace": false,
         "bubbleUpCreateNew": true,
-        "fuzzThreshold": 0.2
+        "fuzzThreshold": 0.2,
+        "vaultSelectionModeOnCreate": "smart"
       }
     },
     "randomNote": {},
@@ -60,9 +24,9 @@
     },
     "insertNoteIndex": {
       "enableMarker": false
-    }
+    },
+    "copyNoteLink": {}
   },
-  "workspaceVaultSync": "sync",
   "workspace": {
     "vaults": [
       {
@@ -101,7 +65,11 @@
         "L": "low"
       },
       "todoIntegration": false,
-      "createTaskSelectionType": "selection2link"
+      "createTaskSelectionType": "selection2link",
+      "taskCompleteStatus": [
+        "done",
+        "x"
+      ]
     },
     "graph": {
       "zoomSpeed": 1
@@ -115,7 +83,11 @@
     "enableAutoFoldFrontmatter": false,
     "enableEditorDecorations": true,
     "maxPreviewsCached": 10,
-    "maxNoteLength": 204800
+    "maxNoteLength": 204800,
+    "enableHandlebarTemplates": false,
+    "enableFullHierarchyNoteTitle": false,
+    "templateHierarchy": "template",
+    "dendronVersion": "0.97.0"
   },
   "preview": {
     "enableFMTitle": true,
@@ -123,6 +95,51 @@
     "enableMermaid": true,
     "enablePrettyRefs": true,
     "enableKatex": true,
-    "automaticallyShowPreview": false
+    "automaticallyShowPreview": false,
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false
+  },
+  "publishing": {
+    "enableFMTitle": true,
+    "enableNoteTitleForLink": true,
+    "enableMermaid": true,
+    "enablePrettyRefs": true,
+    "enableKatex": true,
+    "copyAssets": true,
+    "siteHierarchies": [
+      "infrastructure",
+      "git",
+      "keyboards",
+      "environments",
+      "python"
+    ],
+    "enableSiteLastModified": true,
+    "siteRootDir": "docs",
+    "siteUrl": "https://docs.bbrain.io",
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableRandomlyColoredTags": true,
+    "duplicateNoteBehavior": {
+      "action": "useVault",
+      "payload": [
+        "vault"
+      ]
+    },
+    "writeStubs": false,
+    "seo": {
+      "title": "Docs",
+      "description": "Personal knowledge space"
+    },
+    "github": {
+      "cname": "docs.bbrain.io",
+      "enableEditLink": true,
+      "editLinkText": "Edit this page on GitHub",
+      "editBranch": "master",
+      "editViewMode": "tree"
+    },
+    "enablePrettyLinks": true,
+    "enableTaskNotes": true,
+    "siteFaviconPath": "favicon.ico",
+    "siteIndex": "infrastructure"
   }
 }

@@ -1,0 +1,6 @@
+<h1 id="storage"><a aria-hidden="true" class="anchor-heading" href="#storage"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Storage</h1>
+<h2 id="nfs-storage-class"><a aria-hidden="true" class="anchor-heading" href="#nfs-storage-class"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>NFS Storage class</h2>
+<p>I don't want to install portworx, because it needs at least 4 cores and 4GB of memory when my server only has 4 cores (8 threads) and 32GB of RAM.<br>
+So we'll use NFS for obvious reasons.</p>
+<p>There is an NFS provisioner recommended by the Kubernetes documentation : <a href="https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner">NFS Subdir External Provisioner</a></p>
+<p>It will create persistent volumes automatically and that's all I need.</p>

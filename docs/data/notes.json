@@ -1,47 +1,55 @@
 {
   "notes": {
     "403": {
-      "id": "403",
-      "title": "This page has not yet sprouted",
       "vault": {
         "fsPath": "vault"
       },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
       "type": "note",
+      "updated": 1654185422909,
+      "created": 1654185422909,
       "desc": "",
       "links": [],
       "anchors": {},
-      "fname": "403",
-      "updated": 1642285657412,
-      "created": 1642285657412,
-      "parent": null,
       "children": [],
+      "parent": null,
       "data": {}
     },
     "Ryqt7Uj1Qzbm4h4jOW4jD": {
       "id": "Ryqt7Uj1Qzbm4h4jOW4jD",
       "title": "Python",
+      "desc": "",
+      "updated": 1642612141306,
+      "created": 1641745070576,
+      "custom": {
+        "nav_order": 4
+      },
+      "fname": "python",
+      "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "type": "note",
-      "desc": "",
+      "contentHash": "4a20b28d5c8e10f5f3611d141eff7659",
       "links": [],
-      "anchors": {},
-      "fname": "python",
-      "updated": 1641745070576,
-      "created": 1641745070576,
-      "parent": null,
+      "anchors": {
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
       "children": [
         "uvOyqp7f7sj2CxwroIGXx",
         "5Cf45sPCA2vDYIdN12aIA"
       ],
-      "data": {},
-      "contentHash": "98a49cdaa835b01eb7fc357a3a2fed87",
-      "stub": false,
-      "custom": {
-        "stub": true,
-        "nav_order": 4
-      }
+      "parent": null,
+      "data": {}
     },
     "5Cf45sPCA2vDYIdN12aIA": {
       "id": "5Cf45sPCA2vDYIdN12aIA",
@@ -122,11 +130,12 @@
       "created": 1641739377044,
       "parent": null,
       "children": [
+        "GpybNOeMZIrwdkWVOxSt5",
         "Odo5JvNX2nDLnJ1jim3Pg"
       ],
       "data": {},
       "contentHash": "090bcb4751ee7635f63ebd18b94dedf9",
-      "stub": false,
+      "stub": true,
       "custom": {
         "stub": true,
         "nav_order": 3
@@ -136,7 +145,7 @@
       "id": "Odo5JvNX2nDLnJ1jim3Pg",
       "title": "Windows",
       "desc": "",
-      "updated": 1641850983009,
+      "updated": 1644525773328,
       "created": 1641739377033,
       "custom": {},
       "fname": "environments.windows",
@@ -144,13 +153,89 @@
       "vault": {
         "fsPath": "vault"
       },
-      "contentHash": "c37c43b88268eabc9b1afdcec7c38c9e",
+      "contentHash": "1c03f4aeaba886c44bede8c46190bc6f",
       "links": [],
       "anchors": {
+        "prerequisites": {
+          "type": "header",
+          "text": "Prerequisites",
+          "value": "prerequisites",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "openssh-server": {
+          "type": "header",
+          "text": "Openssh server",
+          "value": "openssh-server",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
         "keyboard-rate": {
           "type": "header",
           "text": "Keyboard rate",
           "value": "keyboard-rate",
+          "line": 55,
+          "column": 0,
+          "depth": 2
+        },
+        "taskbar-hover-time": {
+          "type": "header",
+          "text": "Taskbar Hover time",
+          "value": "taskbar-hover-time",
+          "line": 82,
+          "column": 0,
+          "depth": 2
+        },
+        "wsl": {
+          "type": "header",
+          "text": "WSL",
+          "value": "wsl",
+          "line": 88,
+          "column": 0,
+          "depth": 2
+        },
+        "fonts": {
+          "type": "header",
+          "text": "Fonts",
+          "value": "fonts",
+          "line": 95,
+          "column": 0,
+          "depth": 2
+        },
+        "clipboard": {
+          "type": "header",
+          "text": "Clipboard",
+          "value": "clipboard",
+          "line": 105,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "oDOFbJOt5YYRU9MzWaQT0",
+      "data": {}
+    },
+    "GpybNOeMZIrwdkWVOxSt5": {
+      "id": "GpybNOeMZIrwdkWVOxSt5",
+      "title": "Linux",
+      "desc": "",
+      "updated": 1642854340156,
+      "created": 1642456587534,
+      "custom": {},
+      "fname": "environments.linux",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "65f546722edc90b87f6339d97329f20c",
+      "links": [],
+      "anchors": {
+        "dotfiles": {
+          "type": "header",
+          "text": "Dotfiles",
+          "value": "dotfiles",
           "line": 8,
           "column": 0,
           "depth": 2
@@ -271,49 +356,218 @@
     "ACmIaoniWX1pK5upZqwF4": {
       "id": "ACmIaoniWX1pK5upZqwF4",
       "title": "Infrastructure",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "type": "note",
       "desc": "",
-      "links": [],
-      "anchors": {},
-      "fname": "infrastructure",
-      "updated": 1641150932737,
+      "updated": 1644158025787,
       "created": 1641149787317,
-      "parent": null,
-      "children": [],
-      "data": {},
-      "contentHash": "ca0daa889d023e0db195580a5a89043a",
       "custom": {
         "nav_order": 0,
         "permalink": "/"
-      }
+      },
+      "fname": "infrastructure",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "62480da9abef0bc86d140688f95f22c5",
+      "links": [],
+      "anchors": {
+        "entrypoint": {
+          "type": "header",
+          "text": "Entrypoint",
+          "value": "entrypoint",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "bootstrap": {
+          "type": "header",
+          "text": "Bootstrap",
+          "value": "bootstrap",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "hardening": {
+          "type": "header",
+          "text": "Hardening",
+          "value": "hardening",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "8NrarbQZt3SzDSH5WW0o5",
+        "02klc5hru27v01cc85fmz9t"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "02klc5hru27v01cc85fmz9t": {
+      "fname": "infrastructure.kubernetes",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1654184312562,
+      "created": 1654184312562,
+      "id": "02klc5hru27v01cc85fmz9t",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "A49UF6F6j25U1k79vXh4y",
+        "HQryZC3xRqu0hG0xSE3nS"
+      ],
+      "parent": "ACmIaoniWX1pK5upZqwF4",
+      "data": {},
+      "title": "Kubernetes"
+    },
+    "HQryZC3xRqu0hG0xSE3nS": {
+      "id": "HQryZC3xRqu0hG0xSE3nS",
+      "title": "Storage",
+      "desc": "",
+      "updated": 1643484005490,
+      "created": 1643483772053,
+      "custom": {},
+      "fname": "infrastructure.kubernetes.storage",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "bc99690e3af428476f9bd27e526a4cf0",
+      "links": [],
+      "anchors": {
+        "nfs-storage-class": {
+          "type": "header",
+          "text": "NFS Storage class",
+          "value": "nfs-storage-class",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "02klc5hru27v01cc85fmz9t",
+      "data": {}
+    },
+    "A49UF6F6j25U1k79vXh4y": {
+      "id": "A49UF6F6j25U1k79vXh4y",
+      "title": "Networking",
+      "desc": "",
+      "updated": 1643484063430,
+      "created": 1643483751470,
+      "custom": {},
+      "fname": "infrastructure.kubernetes.networking",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f5a19b6d18160f912530596a1f0a9010",
+      "links": [],
+      "anchors": {
+        "ingress-controller": {
+          "type": "header",
+          "text": "Ingress Controller",
+          "value": "ingress-controller",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "loadbalancer": {
+          "type": "header",
+          "text": "LoadBalancer",
+          "value": "loadbalancer",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "links": {
+          "type": "header",
+          "text": "Links",
+          "value": "links",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "02klc5hru27v01cc85fmz9t",
+      "data": {}
+    },
+    "8NrarbQZt3SzDSH5WW0o5": {
+      "id": "8NrarbQZt3SzDSH5WW0o5",
+      "title": "Kvm",
+      "desc": "",
+      "updated": 1644526010632,
+      "created": 1644525989029,
+      "custom": {},
+      "fname": "infrastructure.kvm",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "162c6a8da930e03afa865daf03868f31",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ACmIaoniWX1pK5upZqwF4",
+      "data": {}
     }
   },
   "domains": [
     {
       "id": "ACmIaoniWX1pK5upZqwF4",
       "title": "Infrastructure",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "type": "note",
       "desc": "",
-      "links": [],
-      "anchors": {},
-      "fname": "infrastructure",
-      "updated": 1641150932737,
+      "updated": 1644158025787,
       "created": 1641149787317,
-      "parent": null,
-      "children": [],
-      "data": {},
-      "contentHash": "ca0daa889d023e0db195580a5a89043a",
       "custom": {
         "nav_order": 0,
         "permalink": "/"
       },
-      "body": "\nThis is the root of my infrastructure documentation.\n"
+      "fname": "infrastructure",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "62480da9abef0bc86d140688f95f22c5",
+      "links": [],
+      "anchors": {
+        "entrypoint": {
+          "type": "header",
+          "text": "Entrypoint",
+          "value": "entrypoint",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "bootstrap": {
+          "type": "header",
+          "text": "Bootstrap",
+          "value": "bootstrap",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "hardening": {
+          "type": "header",
+          "text": "Hardening",
+          "value": "hardening",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "8NrarbQZt3SzDSH5WW0o5",
+        "02klc5hru27v01cc85fmz9t"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nThis is the root of my infrastructure documentation.\n\n## Entrypoint\n\nTo manage my infrastructure, I have an [Ansible collection](https://github.com/jonsible/iac) that holds several roles and playbooks.\n\nI also have an [inventory repository](https://github.com/jonsible/inventory) which is private, that holds :\n- Bare machines, meaning bare-metal hosts and virtual machines that I pay for\n- VMs, meaning virtual machines that I provisioned in my KVM infrastructure.\n\n## Bootstrap\n\nUsually, the first role to run when creating a new server is the [bootstrap role](https://github.com/jonsible/iac/tree/master/roles/bootstrap).\n\n- It creates the default user (configured by the `default_user` variable)\n- Installs a public key in the user's `authorized_keys` by retrieving it from `github` (configured by the `github_user` variable)\n- Sets up passwordless sudo\n- Installs required components\n\n## Hardening\n\nThe [hardening role](https://github.com/jonsible/iac/tree/master/roles/hardening) will perform multiple steps to secure the server.\n\n- Remove `ufw`\n- Install iptables\n- Install and configure `fail2ban`\n- "
     },
     {
       "id": "esZXrAjmKkTyLkVG5Iyeb",
@@ -440,6 +694,7 @@
       "created": 1641739377044,
       "parent": null,
       "children": [
+        "GpybNOeMZIrwdkWVOxSt5",
         "Odo5JvNX2nDLnJ1jim3Pg"
       ],
       "data": {},
@@ -454,53 +709,88 @@
     {
       "id": "Ryqt7Uj1Qzbm4h4jOW4jD",
       "title": "Python",
+      "desc": "",
+      "updated": 1642612141306,
+      "created": 1641745070576,
+      "custom": {
+        "nav_order": 4
+      },
+      "fname": "python",
+      "type": "note",
       "vault": {
         "fsPath": "vault"
       },
-      "type": "note",
-      "desc": "",
+      "contentHash": "4a20b28d5c8e10f5f3611d141eff7659",
       "links": [],
-      "anchors": {},
-      "fname": "python",
-      "updated": 1641745070576,
-      "created": 1641745070576,
-      "parent": null,
+      "anchors": {
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
       "children": [
         "uvOyqp7f7sj2CxwroIGXx",
         "5Cf45sPCA2vDYIdN12aIA"
       ],
+      "parent": null,
       "data": {},
-      "contentHash": "98a49cdaa835b01eb7fc357a3a2fed87",
-      "stub": true,
-      "custom": {
-        "stub": true,
-        "nav_order": 4
-      },
-      "body": "\n"
+      "body": "\n## Setup\n\nInstall required components\n```\n\n```\n\n```\npdm init\n```"
     }
   ],
   "noteIndex": {
     "id": "ACmIaoniWX1pK5upZqwF4",
     "title": "Infrastructure",
-    "vault": {
-      "fsPath": "vault"
-    },
-    "type": "note",
     "desc": "",
-    "links": [],
-    "anchors": {},
-    "fname": "infrastructure",
-    "updated": 1641150932737,
+    "updated": 1644158025787,
     "created": 1641149787317,
-    "parent": null,
-    "children": [],
-    "data": {},
-    "contentHash": "ca0daa889d023e0db195580a5a89043a",
     "custom": {
       "nav_order": 0,
       "permalink": "/"
     },
-    "body": "\nThis is the root of my infrastructure documentation.\n"
+    "fname": "infrastructure",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "62480da9abef0bc86d140688f95f22c5",
+    "links": [],
+    "anchors": {
+      "entrypoint": {
+        "type": "header",
+        "text": "Entrypoint",
+        "value": "entrypoint",
+        "line": 10,
+        "column": 0,
+        "depth": 2
+      },
+      "bootstrap": {
+        "type": "header",
+        "text": "Bootstrap",
+        "value": "bootstrap",
+        "line": 18,
+        "column": 0,
+        "depth": 2
+      },
+      "hardening": {
+        "type": "header",
+        "text": "Hardening",
+        "value": "hardening",
+        "line": 27,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [
+      "8NrarbQZt3SzDSH5WW0o5",
+      "02klc5hru27v01cc85fmz9t"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nThis is the root of my infrastructure documentation.\n\n## Entrypoint\n\nTo manage my infrastructure, I have an [Ansible collection](https://github.com/jonsible/iac) that holds several roles and playbooks.\n\nI also have an [inventory repository](https://github.com/jonsible/inventory) which is private, that holds :\n- Bare machines, meaning bare-metal hosts and virtual machines that I pay for\n- VMs, meaning virtual machines that I provisioned in my KVM infrastructure.\n\n## Bootstrap\n\nUsually, the first role to run when creating a new server is the [bootstrap role](https://github.com/jonsible/iac/tree/master/roles/bootstrap).\n\n- It creates the default user (configured by the `default_user` variable)\n- Installs a public key in the user's `authorized_keys` by retrieving it from `github` (configured by the `github_user` variable)\n- Sets up passwordless sudo\n- Installs required components\n\n## Hardening\n\nThe [hardening role](https://github.com/jonsible/iac/tree/master/roles/hardening) will perform multiple steps to secure the server.\n\n- Remove `ufw`\n- Install iptables\n- Install and configure `fail2ban`\n- "
   },
   "vaults": [
     {

@@ -1,2 +1,31 @@
 <h1 id="infrastructure"><a aria-hidden="true" class="anchor-heading" href="#infrastructure"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Infrastructure</h1>
 <p>This is the root of my infrastructure documentation.</p>
+<h2 id="entrypoint"><a aria-hidden="true" class="anchor-heading" href="#entrypoint"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Entrypoint</h2>
+<p>To manage my infrastructure, I have an <a href="https://github.com/jonsible/iac">Ansible collection</a> that holds several roles and playbooks.</p>
+<p>I also have an <a href="https://github.com/jonsible/inventory">inventory repository</a> which is private, that holds :</p>
+<ul>
+<li>Bare machines, meaning bare-metal hosts and virtual machines that I pay for</li>
+<li>VMs, meaning virtual machines that I provisioned in my KVM infrastructure.</li>
+</ul>
+<h2 id="bootstrap"><a aria-hidden="true" class="anchor-heading" href="#bootstrap"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bootstrap</h2>
+<p>Usually, the first role to run when creating a new server is the <a href="https://github.com/jonsible/iac/tree/master/roles/bootstrap">bootstrap role</a>.</p>
+<ul>
+<li>It creates the default user (configured by the <code>default_user</code> variable)</li>
+<li>Installs a public key in the user's <code>authorized_keys</code> by retrieving it from <code>github</code> (configured by the <code>github_user</code> variable)</li>
+<li>Sets up passwordless sudo</li>
+<li>Installs required components</li>
+</ul>
+<h2 id="hardening"><a aria-hidden="true" class="anchor-heading" href="#hardening"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hardening</h2>
+<p>The <a href="https://github.com/jonsible/iac/tree/master/roles/hardening">hardening role</a> will perform multiple steps to secure the server.</p>
+<ul>
+<li>Remove <code>ufw</code></li>
+<li>Install iptables</li>
+<li>Install and configure <code>fail2ban</code></li>
+<li></li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/02klc5hru27v01cc85fmz9t">Kubernetes</a></li>
+<li><a href="/notes/8NrarbQZt3SzDSH5WW0o5">Kvm</a></li>
+</ol>

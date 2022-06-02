@@ -52,6 +52,9 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     graph:
         zoomSpeed: 1
     enableAutoCreateOnDefinition: false
@@ -66,7 +69,8 @@ workspace:
     maxNoteLength: 204800
     enableHandlebarTemplates: false
     enableFullHierarchyNoteTitle: false
-    dendronVersion: 0.97.0
+    dendronVersion: 0.83.0
+    templateHierarchy: template
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -90,6 +94,7 @@ publishing:
         - environments
         - python
         - projects
+    theme: dark
     enableSiteLastModified: true
     siteRootDir: docs
     siteUrl: https://docs.bbrain.io
@@ -111,3 +116,4 @@ publishing:
         editBranch: master
         editViewMode: tree
     enablePrettyLinks: true
+    enableTaskNotes: true

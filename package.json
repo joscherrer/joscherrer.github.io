@@ -1,0 +1,11 @@
+{
+    "name": "joscherrer.github.io",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/joscherrer/joscherrer.github.io",
+    "author": "Jonathan Scherrer <jonathan.s.scherrer@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@dendronhq/dendron-cli": "^0.97.0"
+    }
+}

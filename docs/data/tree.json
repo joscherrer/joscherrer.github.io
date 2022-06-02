@@ -9,7 +9,7 @@
       "navExclude": false,
       "children": [
         {
-          "key": "5ka687wljzl5f8huxwvyl6v",
+          "key": "xkithi72ujfaspkfkm1mkv9",
           "title": "Kubernetes",
           "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "key": "gm7qqsvuqmft13l8asfnzrq",
+      "key": "5yh7e9pkl8jgombw8eo7dd7",
       "title": "Projects",
       "icon": "plusOutlined",
       "hasTitleNumberOutlined": false,
@@ -143,8 +143,8 @@
   ],
   "child2parent": {
     "403": null,
-    "gm7qqsvuqmft13l8asfnzrq": null,
-    "1vas9emru4qd67ndevnbaun": "gm7qqsvuqmft13l8asfnzrq",
+    "5yh7e9pkl8jgombw8eo7dd7": null,
+    "1vas9emru4qd67ndevnbaun": "5yh7e9pkl8jgombw8eo7dd7",
     "Ryqt7Uj1Qzbm4h4jOW4jD": null,
     "5Cf45sPCA2vDYIdN12aIA": "Ryqt7Uj1Qzbm4h4jOW4jD",
     "uvOyqp7f7sj2CxwroIGXx": "Ryqt7Uj1Qzbm4h4jOW4jD",
@@ -154,9 +154,9 @@
     "AaMh2lcmbQnj9mqmRRDPx": null,
     "esZXrAjmKkTyLkVG5Iyeb": null,
     "ACmIaoniWX1pK5upZqwF4": null,
-    "5ka687wljzl5f8huxwvyl6v": "ACmIaoniWX1pK5upZqwF4",
-    "HQryZC3xRqu0hG0xSE3nS": "5ka687wljzl5f8huxwvyl6v",
-    "A49UF6F6j25U1k79vXh4y": "5ka687wljzl5f8huxwvyl6v",
+    "xkithi72ujfaspkfkm1mkv9": "ACmIaoniWX1pK5upZqwF4",
+    "HQryZC3xRqu0hG0xSE3nS": "xkithi72ujfaspkfkm1mkv9",
+    "A49UF6F6j25U1k79vXh4y": "xkithi72ujfaspkfkm1mkv9",
     "8NrarbQZt3SzDSH5WW0o5": "ACmIaoniWX1pK5upZqwF4"
   }
 }

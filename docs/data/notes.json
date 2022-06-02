@@ -9,8 +9,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1654187855784,
-      "created": 1654187855784,
+      "updated": 1654191773329,
+      "created": 1654191773329,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -18,7 +18,7 @@
       "parent": null,
       "data": {}
     },
-    "gm7qqsvuqmft13l8asfnzrq": {
+    "5yh7e9pkl8jgombw8eo7dd7": {
       "fname": "projects",
       "stub": true,
       "vault": {
@@ -26,9 +26,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1654187854769,
-      "created": 1654187854769,
-      "id": "gm7qqsvuqmft13l8asfnzrq",
+      "updated": 1654191773221,
+      "created": 1654191773221,
+      "id": "5yh7e9pkl8jgombw8eo7dd7",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -75,7 +75,7 @@
         }
       },
       "children": [],
-      "parent": "gm7qqsvuqmft13l8asfnzrq",
+      "parent": "5yh7e9pkl8jgombw8eo7dd7",
       "data": {}
     },
     "Ryqt7Uj1Qzbm4h4jOW4jD": {
@@ -458,12 +458,12 @@
       },
       "children": [
         "8NrarbQZt3SzDSH5WW0o5",
-        "5ka687wljzl5f8huxwvyl6v"
+        "xkithi72ujfaspkfkm1mkv9"
       ],
       "parent": null,
       "data": {}
     },
-    "5ka687wljzl5f8huxwvyl6v": {
+    "xkithi72ujfaspkfkm1mkv9": {
       "fname": "infrastructure.kubernetes",
       "stub": true,
       "vault": {
@@ -471,9 +471,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1654187854770,
-      "created": 1654187854770,
-      "id": "5ka687wljzl5f8huxwvyl6v",
+      "updated": 1654191773222,
+      "created": 1654191773222,
+      "id": "xkithi72ujfaspkfkm1mkv9",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -510,7 +510,7 @@
         }
       },
       "children": [],
-      "parent": "5ka687wljzl5f8huxwvyl6v",
+      "parent": "xkithi72ujfaspkfkm1mkv9",
       "data": {}
     },
     "A49UF6F6j25U1k79vXh4y": {
@@ -554,7 +554,7 @@
         }
       },
       "children": [],
-      "parent": "5ka687wljzl5f8huxwvyl6v",
+      "parent": "xkithi72ujfaspkfkm1mkv9",
       "data": {}
     },
     "8NrarbQZt3SzDSH5WW0o5": {
@@ -623,7 +623,7 @@
       },
       "children": [
         "8NrarbQZt3SzDSH5WW0o5",
-        "5ka687wljzl5f8huxwvyl6v"
+        "xkithi72ujfaspkfkm1mkv9"
       ],
       "parent": null,
       "data": {},
@@ -808,9 +808,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1654187854769,
-      "created": 1654187854769,
-      "id": "gm7qqsvuqmft13l8asfnzrq",
+      "updated": 1654191773221,
+      "created": 1654191773221,
+      "id": "5yh7e9pkl8jgombw8eo7dd7",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -871,7 +871,7 @@
     },
     "children": [
       "8NrarbQZt3SzDSH5WW0o5",
-      "5ka687wljzl5f8huxwvyl6v"
+      "xkithi72ujfaspkfkm1mkv9"
     ],
     "parent": null,
     "data": {},

@@ -9,8 +9,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1654185422909,
-      "created": 1654185422909,
+      "updated": 1654187006115,
+      "created": 1654187006115,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -397,10 +397,29 @@
         }
       },
       "children": [
-        "8NrarbQZt3SzDSH5WW0o5",
-        "02klc5hru27v01cc85fmz9t"
+        "02klc5hru27v01cc85fmz9t",
+        "8NrarbQZt3SzDSH5WW0o5"
       ],
       "parent": null,
+      "data": {}
+    },
+    "8NrarbQZt3SzDSH5WW0o5": {
+      "id": "8NrarbQZt3SzDSH5WW0o5",
+      "title": "Kvm",
+      "desc": "",
+      "updated": 1644526010632,
+      "created": 1644525989029,
+      "custom": {},
+      "fname": "infrastructure.kvm",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "162c6a8da930e03afa865daf03868f31",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ACmIaoniWX1pK5upZqwF4",
       "data": {}
     },
     "02klc5hru27v01cc85fmz9t": {
@@ -496,25 +515,6 @@
       "children": [],
       "parent": "02klc5hru27v01cc85fmz9t",
       "data": {}
-    },
-    "8NrarbQZt3SzDSH5WW0o5": {
-      "id": "8NrarbQZt3SzDSH5WW0o5",
-      "title": "Kvm",
-      "desc": "",
-      "updated": 1644526010632,
-      "created": 1644525989029,
-      "custom": {},
-      "fname": "infrastructure.kvm",
-      "type": "note",
-      "vault": {
-        "fsPath": "vault"
-      },
-      "contentHash": "162c6a8da930e03afa865daf03868f31",
-      "links": [],
-      "anchors": {},
-      "children": [],
-      "parent": "ACmIaoniWX1pK5upZqwF4",
-      "data": {}
     }
   },
   "domains": [
@@ -562,8 +562,8 @@
         }
       },
       "children": [
-        "8NrarbQZt3SzDSH5WW0o5",
-        "02klc5hru27v01cc85fmz9t"
+        "02klc5hru27v01cc85fmz9t",
+        "8NrarbQZt3SzDSH5WW0o5"
       ],
       "parent": null,
       "data": {},
@@ -785,8 +785,8 @@
       }
     },
     "children": [
-      "8NrarbQZt3SzDSH5WW0o5",
-      "02klc5hru27v01cc85fmz9t"
+      "02klc5hru27v01cc85fmz9t",
+      "8NrarbQZt3SzDSH5WW0o5"
     ],
     "parent": null,
     "data": {},

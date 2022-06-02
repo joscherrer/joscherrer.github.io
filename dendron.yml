@@ -1,30 +1,6 @@
-version: 4
-useFMTitle: true
-useNoteTitleForLink: true
-mermaid: true
-useKatex: true
+version: 5
 dev:
     enablePreviewV2: true
-site:
-    copyAssets: true
-    siteHierarchies:
-        - infrastructure
-        - git
-        - keyboards
-        - environments
-        - python
-    siteUrl: https://docs.bbrain.io
-    githubCname: docs.bbrain.io
-    siteRootDir: docs
-    usePrettyRefs: true
-    title: Docs
-    description: Personal knowledge space
-    siteLastModified: true
-    gh_edit_branch: master
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
 commands:
     lookup:
         note:
@@ -33,6 +9,7 @@ commands:
             leaveTrace: false
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
+            vaultSelectionModeOnCreate: smart
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -41,7 +18,7 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-workspaceVaultSync: sync
+    copyNoteLink: {}
 workspace:
     vaults:
         -
@@ -87,6 +64,9 @@ workspace:
     enableEditorDecorations: true
     maxPreviewsCached: 10
     maxNoteLength: 204800
+    enableHandlebarTemplates: false
+    enableFullHierarchyNoteTitle: false
+    dendronVersion: 0.97.0
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -94,3 +74,40 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+publishing:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    copyAssets: true
+    siteHierarchies:
+        - infrastructure
+        - git
+        - keyboards
+        - environments
+        - python
+        - projects
+    enableSiteLastModified: true
+    siteRootDir: docs
+    siteUrl: https://docs.bbrain.io
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
+    writeStubs: false
+    seo:
+        title: Docs
+        description: Personal knowledge space
+    github:
+        cname: docs.bbrain.io
+        enableEditLink: true
+        editLinkText: Edit this page on GitHub
+        editBranch: master
+        editViewMode: tree
+    enablePrettyLinks: true

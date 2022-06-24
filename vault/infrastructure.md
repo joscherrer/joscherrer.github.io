@@ -2,11 +2,16 @@
 id: ACmIaoniWX1pK5upZqwF4
 title: Infrastructure
 desc: ''
-updated: 1644158025787
+updated: 1655746961835
 created: 1641149787317
 ---
 
 This is the root of my infrastructure documentation.
+
+## HQ
+
+I have one server that acts as a control node for my whole infrastructure.
+On this server is installed 
 
 ## Entrypoint
 

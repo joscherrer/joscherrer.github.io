@@ -2,7 +2,7 @@
 id: 1vas9emru4qd67ndevnbaun
 title: Doorbell
 desc: ""
-updated: 1655497834534
+updated: 1655649340065
 created: 1654185774400
 ---
 
@@ -20,13 +20,20 @@ To update, the ESP32 is querying https://hq.mvd.ovh (password protected).
 
 ## Installing the environment
 
-Follow Espressif's [Getting Started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) to install esp-idf.
+First, follow Espressif's [Getting Started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) to install esp-idf.
 
 Clone the `doorbell` project and open it in VSCode :
 
 ```bash
 git clone git@github.com:joscherrer/doorbell.git
 code doorbell/
+```
+
+Enable the IDF component manager in your VSCode settings :
+```json
+{
+    "idf.enableIdfComponentManager": true,
+}
 ```
 
 Then you can either flash with UART, or [publish a new OTA version](#publishing-a-new-ota-version)
